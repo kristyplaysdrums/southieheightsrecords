@@ -3,6 +3,8 @@
 {{ .Title }} – {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{- .Content -}}
+<section class="container">
+  <h1 class="section-heading">{{ .Title }}</h1>
+  {{- .Content -}}
+</section>
 {{ end }}
