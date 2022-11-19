@@ -204,8 +204,22 @@ a {
   }
 }
 
-.band-details-copy {
-  display: flex;
+/* Learn More Buttons */
+.learn-more-button {
+  border: 2px solid #000101;
+  display: inline-block;
+  color: #000101;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 0 0 16px;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.learn-more-button:hover {
+  background-color: #000101;
+  color: #fff;
 }
 
 /* FOOTER */
